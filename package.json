@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "template for gateway.js",
   "scripts": {
-    "dev": "cli gw:dev",
-    "start": "cli gw:start",
+    "dev": "NODE_ENV=development cli gw:dev",
+    "start": "NODE_ENV=production cli gw:start",
     "restart": "cli gw:restart",
     "stop": "cli gw:stop"
   },
